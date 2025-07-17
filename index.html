@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鳳梨生活舖・服務總覽</title>
+  <style>
+    body { font-family: Helvetica, sans-serif; padding: 20px; line-height: 1.7; max-width: 800px; margin: auto; }
+    h1 { background-color: #334; color: white; padding: 12px; text-align: center; }
+    h2 { color: #333366; margin-top: 20px; }
+    h3 { color: #444; margin-top: 25px; }
+    .button { display: inline-block; padding: 10px 15px; color: white; text-align: center; text-decoration: none; border-radius: 5px; margin: 5px; cursor: pointer; }
+    .orange { background-color: #f9a825; }
+    .blue { background-color: #2196f3; }
+    .red { background-color: #e53935; }
+    .brown { background-color: #8d6e63; }
+    .section { display: none; margin-top: 30px; }
+    .section.active { display: block; }
+    ul { padding-left: 20px; }
+  </style>
+</head>
+<body>
+
+<h1>鳳梨生活舖｜服務總覽</h1>
+
+<!-- 選單按鈕 -->
+<div style="text-align:center;">
+  <button class="button orange" onclick="showSection('daigou')">🛒 日本代購</button>
+  <button class="button blue" onclick="showSection('car')">🚐 包車服務</button>
+  <button class="button red" onclick="showSection('pest')">🐜 害蟲防治</button>
+  <button class="button brown" onclick="showSection('laohuang')">🐔 老黃雜貨店</button>
+</div>
+
+<!-- 日本代購 -->
+<div class="section active" id="daigou">
+  <h2>🛒 日本代購、網購＆健康食品</h2>
+  <h3>【服務內容】</h3>
+  <ul>
+    <li>代購日本當地人氣商品、藥妝、保健品、零食、家用品等</li>
+    <li>每週更新商品清單，不定期推出限時優惠</li>
+    <li>由日本直寄台灣，保證正品</li>
+  </ul>
+  <h3>【購買流程】</h3>
+  <ul>
+    <li>1️⃣ 加入 Facebook 社團查看最新代購貼文</li>
+    <li>2️⃣ 私訊或留言報名＋1 或填寫訂購表單</li>
+    <li>3️⃣ 確認品項與金額 → 安排付款</li>
+    <li>4️⃣ 等待寄出通知與追蹤資訊</li>
+  </ul>
+  <h3>【為什麼選擇我們】</h3>
+  <ul>
+    <li>🚀 日本當地出貨，時效快、正品保證</li>
+    <li>💬 有問必回，代購小幫手真人客服</li>
+    <li>📦 團購價格優惠，幫你省更多！</li>
+  </ul>
+  <h3>【加入我們】</h3>
+  <p>想搶便宜？想補貨？歡迎加入我們的社團～</p>
+  <a class="button orange" href="https://www.facebook.com/share/g/14tBKM5CCMy" target="_blank">📦 加入代購社團</a>
+</div>
+
+<!-- 包車 -->
+<div class="section" id="car">
+  <h2>🚐 日本旅遊包車＆機場接送</h2>
+  <h3>【服務內容】</h3>
+  <ul>
+    <li>旅遊包車、自由行安排、小團體專車、觀光路線接送</li>
+    <li>提供成田／羽田／關西等機場接送</li>
+    <li>中文司機，熟悉路線，溝通無障礙</li>
+  </ul>
+  <h3>【預約流程】</h3>
+  <ul>
+    <li>1️⃣ 加我 LINE 告知日期、地點與人數</li>
+    <li>2️⃣ 我們會提供報價與建議行程</li>
+    <li>3️⃣ 確認後付款 → 安排司機出發</li>
+  </ul>
+  <h3>【我們的優勢】</h3>
+  <ul>
+    <li>🧳 大行李也沒問題！家庭／長住族專用</li>
+    <li>📅 可客製化行程，機場、景點、住宿皆可彈性安排</li>
+    <li>🗣 中文服務、在地經驗、準時親切</li>
+  </ul>
+  <h3>【聯絡我們】</h3>
+  <p>只要傳 LINE 給我，報價清楚、預約快速！</p>
+  <a class="button blue" href="https://line.me/ti/p/lL7hsOV1hp" target="_blank">🚙 加我 LINE 諮詢包車</a>
+</div>
+
+<!-- 害蟲防治 -->
+<div class="section" id="pest">
+  <h2>🐜 害蟲防治（限南關東地區）</h2>
+  <h3>【服務內容】</h3>
+  <ul>
+    <li>提供白蟻、蟑螂、跳蚤、螞蟻、老鼠等室內害蟲防治服務</li>
+    <li>現場評估、藥劑施工、預防處理一次完成</li>
+    <li>使用日本合格藥品，安全無臭，適合有孩童／寵物家庭</li>
+  </ul>
+  <h3>【預約流程】</h3>
+  <ul>
+    <li>1️⃣ 拍照現場環境，加 LINE 與我們說明狀況</li>
+    <li>2️⃣ 由專人報價並安排時間</li>
+    <li>3️⃣ 專業人員到府施作，快速處理</li>
+  </ul>
+  <h3>【選我們的理由】</h3>
+  <ul>
+    <li>🧯 不只滅蟲，更重視預防！</li>
+    <li>📷 現場照片可諮詢報價，無壓力</li>
+    <li>📍 限東京南部、神奈川、靜岡部分區域</li>
+  </ul>
+  <h3>【立即聯絡】</h3>
+  <a class="button red" href="https://line.me/ti/p/dNBX4qNnGV" target="_blank">📱 預約害蟲防治</a>
+</div>
+
+<!-- 老黃雜貨店 -->
+<div class="section" id="laohuang">
+  <h2>🐔 老黃在日雜貨店（台灣好物 in 日本）</h2>
+  <h3>【服務內容】</h3>
+  <ul>
+    <li>台灣泡麵、鳳梨酥、洗手液、飲料等台灣熱銷雜貨</li>
+    <li>在日台灣人最愛的伴手禮、即期特價商品</li>
+    <li>可選黑貓宅配／自取點取貨</li>
+  </ul>
+  <h3>【購買流程】</h3>
+  <ul>
+    <li>1️⃣ 加入 LINE 官方帳號</li>
+    <li>2️⃣ 私訊詢問商品與庫存</li>
+    <li>3️⃣ 確認品項與價格後付款</li>
+    <li>4️⃣ 出貨通知 → 等待收貨</li>
+  </ul>
+  <h3>【我們的特色】</h3>
+  <ul>
+    <li>🔥 商品現貨、週週更新</li>
+    <li>🧃 符合在日生活習慣的精選台灣商品</li>
+    <li>💬 一對一回覆、親切有保障</li>
+  </ul>
+  <h3>【歡迎加入】</h3>
+  <a class="button brown" href="https://line.me/ti/p/0KunSFoGrA" target="_blank">🐔 點我加入雜貨店 LINE</a>
+</div>
+
+<script>
+function showSection(id) {
+  document.querySelectorAll('.section').forEach(el => el.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
+</script>
+
+</body>
+</html>
